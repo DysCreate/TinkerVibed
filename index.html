@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍲 Onam Sadhya Recipe Generator 🍲</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="main-title">
+                <i class="fas fa-utensils"></i>
+                Onam Sadhya Recipe Generator
+                <i class="fas fa-utensils"></i>
+            </h1>
+            <p class="subtitle">Enter the ingredients you have and discover delicious Onam recipes!</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Input Section -->
+            <section class="input-section">
+                <div class="input-container">
+                    <label for="ingredientsInput" class="input-label">
+                        <i class="fas fa-carrot"></i>
+                        What ingredients do you have?
+                    </label>
+                    <textarea 
+                        id="ingredientsInput" 
+                        class="ingredients-input" 
+                        placeholder="Enter your ingredients here...&#10;Example: rice, coconut, curry leaves, vegetables, lentils, spices"
+                        rows="4"
+                    ></textarea>
+                    <div class="input-help">
+                        <i class="fas fa-info-circle"></i>
+                        <span>Separate ingredients with commas. We'll find recipes that match your available ingredients!</span>
+                    </div>
+                    <button id="findRecipesBtn" class="find-recipes-btn">
+                        <i class="fas fa-search"></i>
+                        Find Recipes
+                    </button>
+                </div>
+            </section>
+
+            <!-- Loading Section -->
+            <section id="loadingSection" class="loading-section hidden">
+                <div class="loading-container">
+                    <div class="loading-spinner">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <p class="loading-text">Searching for delicious recipes...</p>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section id="resultsSection" class="results-section hidden">
+                <div class="results-header">
+                    <h2 class="results-title">
+                        <i class="fas fa-star"></i>
+                        Found Recipes
+                    </h2>
+                    <p class="results-subtitle">Here are the recipes you can make with your ingredients:</p>
+                </div>
+                <div id="recipesContainer" class="recipes-container">
+                    <!-- Recipe cards will be dynamically inserted here -->
+                </div>
+            </section>
+
+            <!-- No Results Section -->
+            <section id="noResultsSection" class="no-results-section hidden">
+                <div class="no-results-container">
+                    <div class="no-results-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="no-results-title">No matching recipes found</h3>
+                    <p class="no-results-text">Try adding more ingredients or check your spelling!</p>
+                    <div class="suggested-ingredients">
+                        <h4>Popular Onam ingredients:</h4>
+                        <div class="ingredient-tags">
+                            <span class="ingredient-tag">rice</span>
+                            <span class="ingredient-tag">coconut</span>
+                            <span class="ingredient-tag">curry leaves</span>
+                            <span class="ingredient-tag">vegetables</span>
+                            <span class="ingredient-tag">lentils</span>
+                            <span class="ingredient-tag">spices</span>
+                            <span class="ingredient-tag">banana</span>
+                            <span class="ingredient-tag">mango</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                Happy Onam 2025! <i class="fas fa-flower"></i>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

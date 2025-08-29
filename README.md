@@ -37,8 +37,8 @@ The focus is on **design, structure, and presentation** rather than just functio
 # Project Title  
 
 ## 👥 Team Members  
-- Name 1  
-- Name 2 (if any)  
+- Pranav P P
+- Rasil K Rajesh
 
 ## 🎨 Design Concept  
 Briefly describe your design theme, inspiration, and target audience.  
@@ -51,12 +51,13 @@ Briefly describe your design theme, inspiration, and target audience.
 
 ## 📂 Tech Stack  
 - HTML5, CSS3, JavaScript  
-- [Optional frameworks: Tailwind, Bootstrap, React, etc.]  
+
 
 ## 🚀 How to Run  
 1. Clone this folder  
 2. Open `index.html` in your browser  
 
-## 📸 Screenshots (Optional)  
-_Add 1–2 screenshots of your design here_  
-
+## 📸 Screenshots 
+ 
+<img width="3188" height="1202" alt="frame (3)" src="assets/onam.png" />
+<img width="3188" height="1202" alt="frame (3)" src="assets/onam1.png" />

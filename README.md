@@ -57,7 +57,3 @@ Briefly describe your design theme, inspiration, and target audience.
 1. Clone this folder  
 2. Open `index.html` in your browser  
 
-## 📸 Screenshots 
- 
-<img width="3188" height="1202" alt="frame (3)" src="assets/onam.png" />
-<img width="3188" height="1202" alt="frame (3)" src="assets/onam1.png" />
